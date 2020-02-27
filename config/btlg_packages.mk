@@ -13,7 +13,8 @@ PRODUCT_PACKAGES += \
     WeatherClient \
     OmniStyle \
     Longshot \
-    Recorder
+    Recorder \
+    SubstratumSignature
 
 ifeq ($(BOOTLEGGERS_BUILD_TYPE),Shishufied)
     PRODUCT_PACKAGES += \
