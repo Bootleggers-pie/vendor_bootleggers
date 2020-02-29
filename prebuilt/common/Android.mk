@@ -128,7 +128,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := SubstratumSignature
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := app/SubstratumSignature.apk
+LOCAL_SRC_FILES := priv-app/SubstratumSignature.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_BUILT_MODULE_STEM := package.apk
