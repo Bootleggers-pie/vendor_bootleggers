@@ -13,11 +13,15 @@
         <permission name="android.permission.PACKAGE_USAGE_STATS"/>
         <permission name="android.permission.NAVIGATION_EDITOR"/>
         <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
+        <permission name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
+        <permission name="lineageos.permission.MANAGE_LIVEDISPLAY" />
     </privapp-permissions>
 
     <privapp-permissions package="com.android.settings">
         <permission name="android.permission.NAVIGATION_EDITOR"/>
         <permission name="android.permission.ACCESS_FONT_MANAGER"/>
+        <permission name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
+        <permission name="lineageos.permission.MANAGE_LIVEDISPLAY" />
     </privapp-permissions>
 
     <privapp-permissions package="com.bootleggers.shishuota">

@@ -7,14 +7,14 @@ PRODUCT_PACKAGES += \
     ShishuWalls \
     GugelClock \
     VisualizationWallpapers \
-    GboardGoPreb \
     Jelly \
     Phonograph \
     WeatherClient \
     OmniStyle \
     Longshot \
     Recorder \
-    SubstratumSignature
+    SubstratumSignature \
+    GBoardPrebuilt
 
 ifeq ($(BOOTLEGGERS_BUILD_TYPE),Shishufied)
     PRODUCT_PACKAGES += \
